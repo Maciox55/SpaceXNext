@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+	<head>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa|Poiret+One|Share|Share+Tech|Space+Mono|Passion+One|Slabo+27px|Source+Code+Pro|Montserrat" rel="stylesheet">
+		<link rel="stylesheet" href="/style.css">
+	</head>	
+	<body>
+		<div class="pimg1">
+			<div class="ptext home">
+				<h1 class="heading">Space<t>X</t> Next</h1>
+				<p class="description">Check out upcoming SpaceX launches or read up on recent lift-offs</p>
+			</div>
+			<div class="ptext">
+				<p class="countdown">Next Launch:<br> <span class="time" id="timer"></span>
+				<span id="embed"></span>
+				</p>
+			</div>
+		</div>
+		<section>
+			<div class="row">
+				<div class="item"><h1 class="number" id="sLaunches"></h1><p>Successful Launches</p></div>
+				<div class="item"><h1 class="number" id="landings"></h1><p>Successful Core Landings</p></div>
+				<div class="item"><h1 class="number" id="reflown"></h1><p>First Stages Reflown</p></div>
+			</div>
+		</section>
+		<div class="pimg2">
+			<h1 class="heading white">Launch History</h1>
+			<div class="dynamicContent">
+				<ul class="launches" id="launches">
+<!--
+					<li class="launch future">
+						<div class="panelTitle">
+							<p class="title">GPS IIIA-3</p>
+							<p class="date">30 Sep 2019</p>
+							<button class="expand" type="button">
+								<i class="fas fa-chevron-down"></i>
+							</button>
+						</div>
+						<div class="details collapsible">
+							<div class="columns">
+								<ul class="col left">
+									<li><d class="detail">Rocket:</d> Falcon 9 Block 5</li>
+									<li><d class="detail">Launch Site:</d> KSC </li>
+									<li><d class="detail">Payload Type:</d> Dragon 1.1 </li>
+									<li><d class="detail">Payload Weight (lbs): </d> 27777 kg (3333 lbs) </li>
+								</ul>
+								<span class="vd"></span>
+								<ul class="col right">
+									<li><d class="detail">Reused First Stage</d></li>
+									<li><d class="detail">First Stage flights: </d> 2</li>
+
+									<li><d class="detail">Landing</d> Successful</li>
+									<li><d class="detail">Landing Site:</d> KSC </li>
+
+									<li><d class="detail">Fairing Recovery</d> Successful </li>
+								</ul>
+							</div>
+					
+							<div class="images">
+								<p class="title">Images</p>
+								<button class="expand" type="button">
+									<i class="fas fa-chevron-down"></i>
+								</button>
+							</div>
+							<div class="carousel">
+									<img class="carouselImg"  src="https://farm5.staticflickr.com/4721/40026315981_f16a7cd32a_o.jpg">
+									</div>
+							</div>
+							
+						</li>
+-->
+				</ul>
+			</div>
+		</div>
+		<section class="footer">
+			<p>Data provided by the r/SpaceX-API <a href="https://github.com/r-spacex/SpaceX-API"><i class="fab fa-github" ></i></a>, written in pure JavaScript by Maciej Bregisz </p>
+		</section>
+	
+		
+	</body>
+	<script src="requests.js"></script>
+	<script src="collapse.js"></script>
+</html>
